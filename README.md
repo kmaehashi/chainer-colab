@@ -1,4 +1,4 @@
-# Chainer on [Google Colaboratory](https://colab.research.google.com/)
+# [Chainer](https://docs.chainer.org/en/latest/) on [Google Colaboratory](https://colab.research.google.com/)
 
 Notice:
 * These instructions and CuPy wheels distributed under this repository are unofficial.
