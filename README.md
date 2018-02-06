@@ -1,6 +1,8 @@
-# Chainer on Google Colaboratory
+# Chainer on [Google Colaboratory](https://colab.research.google.com/)
 
-Note: these instructions and CuPy wheels distributed under this repository are unofficial.
+Notice:
+* These instructions and CuPy wheels distributed under this repository are unofficial.
+* Make sure to enable GPU (`Runtime` > `Change runtime type` > `Hardware accelerator` > `GPU`) on your Colab notebook!
 
 ## For Python 3
 
