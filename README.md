@@ -1,8 +1,6 @@
 # [Chainer](https://docs.chainer.org/en/latest/) on [Google Colaboratory](https://colab.research.google.com/)
 
-Notice:
-* These instructions and CuPy wheels distributed under this repository are unofficial.
-* Make sure to enable GPU (`Runtime` > `Change runtime type` > `Hardware accelerator` > `GPU`) on your Colab notebook!
+Make sure to enable GPU (`Runtime` > `Change runtime type` > `Hardware accelerator` > `GPU`) on your Colab notebook before running the snippet!
 
 ## For Python 3
 
@@ -21,3 +19,8 @@ Notice:
 !pip install https://github.com/kmaehashi/chainer-colab/releases/download/2018-02-06/cupy_cuda80-4.0.0b3-cp27-cp27mu-linux_x86_64.whl
 !pip install 'chainer==4.0.0b3'
 ```
+
+## Examples
+
+* [MNIST Example](https://drive.google.com/file/d/1SsxHvQdSz23kaVov8yKizVD3_2tkXdZM/view) (by @mitmul)
+    * Click `Open with Colaboratory` button to open the notebook.
