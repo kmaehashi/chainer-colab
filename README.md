@@ -7,7 +7,7 @@ Make sure to enable GPU (`Runtime` > `Change runtime type` > `Hardware accelerat
 ```
 !apt -y install libcusparse8.0 libnvrtc8.0 libnvtoolsext1
 !ln -snf /usr/lib/x86_64-linux-gnu/libnvrtc-builtins.so.8.0 /usr/lib/x86_64-linux-gnu/libnvrtc-builtins.so
-!pip install 'cupy-cuda80==4.0.0rc1' 'chainer==4.0.0rc1'
+!pip install cupy-cuda80 chainer
 ```
 
 ## Examples
