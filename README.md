@@ -1,8 +1,7 @@
 # [Chainer](https://docs.chainer.org/en/latest/) on [Google Colaboratory](https://colab.research.google.com/)
 
-Make sure to enable GPU (`Runtime` > `Change runtime type` > `Hardware accelerator` > `GPU`) on your Colab notebook before running the snippet!
-
-## For Python 2 & 3
+Use the following snippet to install Chainer & CuPy (with cuDNN) on Google Colaboratory.
+Make sure to enable GPU (`Runtime` > `Change runtime type` > `Hardware accelerator` > `GPU`) on your notebook **before** running the snippet!
 
 ```
 !apt -y install libcusparse8.0 libnvrtc8.0 libnvtoolsext1
